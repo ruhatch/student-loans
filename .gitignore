@@ -1,0 +1,9 @@
+# Haskell
+
+.stack-work/
+
+
+# Images
+
+*.png
+*.svg

@@ -1,0 +1,15 @@
+resolver: lts-12.26
+
+packages:
+- .
+
+extra-deps:
+  - Chart-1.9.1
+  - Chart-cairo-1.9.1
+
+nix:
+  enable: true
+  packages:
+    - cairo
+    - pkgconfig
+    - zlib
